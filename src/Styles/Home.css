@@ -1,0 +1,79 @@
+#home {
+    padding-top: 50px;
+    margin: 100px;
+}
+
+.home-img {
+    margin-top: 50px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 5px;
+    margin: 20px;
+    margin-top: 50px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.tab-container {
+    background-color: red;
+    width: 250px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.tab-text {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.sub-container {
+    margin: 50px;
+}
+
+.sub-container .sub-content {
+    background-color: green;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.sub-container .sub-content h2 {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.sub-container .sub-content section {
+    font-size: 15px;
+}
+
+.sub-container .sub-content footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.sub-container .sub-content footer input {
+    border: unset;
+    background-color: purple;
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 5px;
+    width: 350px;
+    height: 46px;
+}
+
+.sub-container .sub-content footer button {
+    background-color: orange;
+    color: black;
+    border: unset;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    padding: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
