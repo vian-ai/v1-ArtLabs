@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <nav>
+      <nav className='nav-menu'>
         <Link to='/'>Home</Link>
         <Link to='/banners'>Banners</Link>
         <Link to='/emotes'>Emotes</Link>

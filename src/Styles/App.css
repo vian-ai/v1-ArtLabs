@@ -1,3 +1,18 @@
 .App {
   text-align: center;
 }
+
+.nav-menu {
+  background-color: red;
+  position: relative;
+  width: 100%;
+  margin-top: 52px;
+  z-index: 2;
+}
+
+.nav-menu a {
+  display: inline;
+  text-decoration: none;
+  margin: 15px;
+  padding-right: 30px;
+}
