@@ -6,17 +6,29 @@
   width: 100%;
   top: 0;
   z-index: 2;
-  background-color: dodgerblue;
+  background-color: var(--transparent-beige);
+  backdrop-filter: blur(30px);
+  color: var(--brown);
 }
 
 .btn {
     margin-right: 10%;
 }
 
+.btn-base {
+  padding: 6px;
+  width: 120px;
+  color: white;
+  background-color: var(--brown);
+  border: none;
+  border-radius: 5px;
+}
+
 .social-icons {
     display: flex;
     align-items: center;
     margin-left: 10%;
+    color: var(--brown);
 }
 
 .ham-container {

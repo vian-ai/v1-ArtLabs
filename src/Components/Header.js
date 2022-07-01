@@ -16,7 +16,7 @@ const Header = () => {
                 <h1>Name</h1>
             </div>
             <div className='btn'>
-                <button>Subscribe</button>
+                <button className='btn-base'>Subscribe</button>
             </div>
             <div className='ham-container'>
                 <input className='checkbox' type='checkbox' name='' id='' />

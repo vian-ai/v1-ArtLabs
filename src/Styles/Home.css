@@ -18,7 +18,7 @@
 }
 
 .tab-container {
-    background-color: red;
+    background-color: var(--beige);
     width: 250px;
     height: 130px;
     border-radius: 5px;
@@ -30,14 +30,27 @@
     margin: 50px;
 }
 
+.route-tab {
+    background-color: var(--light-beige);
+    color: var(--brown);
+    border-radius: 3px;
+    width: 90px;
+}
+
+.tab-container:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.281)
+}
+
 .sub-container {
     margin: 50px;
 }
 
 .sub-container .sub-content {
-    background-color: green;
+    background-color: var(--beige);
     padding: 20px;
     border-radius: 5px;
+    color: var(--brown);
     width: 100%;
 }
 
@@ -58,17 +71,17 @@
 
 .sub-container .sub-content footer input {
     border: unset;
-    background-color: purple;
+    background-color: var(--light-beige);
     padding: 15px;
-    font-size: 13px;
+    font-size: 14px;
     border-radius: 5px;
     width: 350px;
     height: 46px;
 }
 
 .sub-container .sub-content footer button {
-    background-color: orange;
-    color: black;
+    background-color: var(--brown);
+    color: white;
     border: unset;
     width: 120px;
     height: 45px;

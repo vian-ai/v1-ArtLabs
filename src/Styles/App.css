@@ -1,7 +1,14 @@
+@import url('./Variables.css');
+
 .App {
   text-align: center;
   margin: 0;
   padding: 0;
+  background-color: var(--pale-beige);
+}
+
+html, body {
+  background-color: var(--pale-beige);
 }
 
 .nav-menu {
@@ -12,7 +19,8 @@
   height: 50px;
   width: 100%;
   top: 50px;
-  background-color: red;
+  background-color: var(--transparent-beige);
+  backdrop-filter: blur(30px);
 }
 
 .nav-menu a {
@@ -20,4 +28,5 @@
   text-decoration: none;
   margin: 15px;
   padding-right: 30px;
+  color: var(--brown);
 }
