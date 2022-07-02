@@ -13,7 +13,8 @@ const ImgCarousel = () => {
                     src={img1}
                     alt="First slide"
                     style={{
-                        width: '100%'
+                        width: '100%',
+                        height: '60%'
                     }}
                 />
                 <Carousel.Caption>
@@ -25,7 +26,8 @@ const ImgCarousel = () => {
                     src={img2}
                     alt="Second slide"
                     style={{
-                        width: '100%'
+                        width: '100%',
+                        height: '60%'
                     }}
                 />
 
@@ -38,7 +40,8 @@ const ImgCarousel = () => {
                     src={img3}
                     alt="Third slide"
                     style={{
-                        width: '100%'
+                        width: '100%',
+                        height: '60%'
                     }}
                 />
                 <Carousel.Caption>
@@ -50,7 +53,8 @@ const ImgCarousel = () => {
                     src={img4}
                     alt="Third slide"
                     style={{
-                        width: '100%'
+                        width: '100%',
+                        height: '60%'
                     }}
                 />
                 <Carousel.Caption>

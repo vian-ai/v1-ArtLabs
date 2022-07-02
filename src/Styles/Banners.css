@@ -1,4 +1,16 @@
 #banners {
-    padding-top: 50px;
-    margin: 100px;
+  padding-top: 50px;
+  margin: 100px;
+}
+
+.carousel .slide {
+    max-width: 100%;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+#banners h1 {
+  color: var(--blue);
 }
