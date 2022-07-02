@@ -1,4 +1,4 @@
-@import url('./Variables.css');
+@import url("./Variables.css");
 
 .App {
   text-align: center;
@@ -7,7 +7,8 @@
   background-color: var(--pale-beige);
 }
 
-html, body {
+html,
+body {
   background-color: var(--pale-beige);
 }
 
@@ -18,7 +19,7 @@ html, body {
   z-index: 1;
   height: 50px;
   width: 100%;
-  top: 50px;
+  top: 85px;
   background-color: var(--transparent-beige);
   backdrop-filter: blur(30px);
 }
@@ -29,4 +30,10 @@ html, body {
   margin: 15px;
   padding-right: 30px;
   color: var(--brown);
+  transition: all 0.35s ease-in-out;
+  font-family: var(--kantumruy);
+}
+
+.nav-menu a:hover {
+  color: var(--light-brown);
 }

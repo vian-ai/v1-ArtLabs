@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@500&family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
 
 :root {
     --brown: #90573e;
@@ -9,7 +9,7 @@
     --pink: #ffc8c1;
     --light-pink: #f8cfca;
     --transparent-beige: #fdeee271;
-    /* --roboto: 'Roboto', sans-serif;
+    --roboto: 'Roboto', sans-serif;
     --kantumruy: 'Kantumruy Pro', sans-serif;
-    --montserrat: 'Montserrat', sans-serif; */
+    --montserrat: 'Montserrat', sans-serif;
 }

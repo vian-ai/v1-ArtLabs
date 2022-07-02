@@ -5,15 +5,15 @@ import '../Styles/Home.css';
 const Home = () => {
     const tabs = [
         {
-            tab: 'Banners',
+            tab: 'BANNERS',
             route: '/#/banners'
         },
         {
-            tab: 'Emotes',
+            tab: 'EMOTES',
             route: '/#/emotes'
         },
         {
-            tab: 'Logos',
+            tab: 'LOGOS',
             route: '/#/logos'
         }
     ];
@@ -30,10 +30,10 @@ const Home = () => {
 
     return (
         <div id='home'>
-            <h1>Home</h1>
+            {/* <h1>Home</h1>
             <div className='home-desc'>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quas fuga cumque voluptatum aperiam tempore quisquam rem officiis vero velit saepe accusamus, porro rerum commodi facere minima veritatis earum id!</p>
-            </div>
+            </div> */}
             <div className='home-img'>
                 <img
                     src={img}
@@ -46,7 +46,7 @@ const Home = () => {
             </div>
             <div className='sub-container'>
                 <div className='sub-content'>
-                    <h2>Subscribe to our Site</h2>
+                    <h2>Subscribe To Our Site</h2>
                     <section>
                         <footer>
                             <input

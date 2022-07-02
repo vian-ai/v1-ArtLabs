@@ -8,12 +8,12 @@ const Header = () => {
     return (
         <div className='top-header'>
             <div className='social-icons'>
-                <InstagramIcon style={{ margin: 10 }} />
-                <TwitterIcon style={{ margin: 10 }} />
-                <EmailIcon style={{ margin: 10 }} />
+                <a className='insta-icon'><InstagramIcon style={{ margin: 10, fontSize: 20 }} /></a>
+                <a className='twt-icon'><TwitterIcon style={{ margin: 10, fontSize: 20 }} /></a>
+                <a className='mail-icon'><EmailIcon style={{ margin: 10, fontSize: 20 }} /></a>
             </div>
             <div className='web-name'>
-                <h1>Name</h1>
+                <h1>NAME</h1>
             </div>
             <div className='btn'>
                 <button className='btn-base'>Subscribe</button>

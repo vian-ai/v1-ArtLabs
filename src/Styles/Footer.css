@@ -1,0 +1,46 @@
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  font-family: var(--kantumruy);
+  padding-bottom: 40px;
+}
+
+.content {
+  color: var(--brown);
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+}
+
+.content:hover {
+  color: var(--light-brown);
+}
+
+.github-icon {
+  color: var(--brown);
+  transition: all 0.35s ease-in-out;
+}
+
+.email-icon {
+  color: var(--brown);
+  transition: all 0.35s ease-in-out;
+}
+
+.linkedin-icon {
+  color: var(--brown);
+  transition: all 0.35s ease-in-out;
+}
+
+.github-icon:hover {
+  color: var(--light-brown);
+}
+
+.email-icon:hover {
+  color: var(--light-brown);
+}
+
+.linkedin-icon:hover {
+  color: var(--light-brown);
+}

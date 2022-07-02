@@ -5,10 +5,12 @@
   position: fixed;
   width: 100%;
   top: 0;
+  height: 100px;
   z-index: 2;
   background-color: var(--transparent-beige);
   backdrop-filter: blur(30px);
   color: var(--brown);
+  cursor: pointer;
 }
 
 .btn {
@@ -22,13 +24,65 @@
   background-color: var(--brown);
   border: none;
   border-radius: 5px;
+  transition: all 0.35s ease-in-out;
+  box-shadow: 0 6px 10px 0 #90573e49;
+}
+
+.btn-base:hover {
+  background-color: var(--light-brown);
 }
 
 .social-icons {
     display: flex;
     align-items: center;
     margin-left: 10%;
-    color: var(--brown);
+}
+
+.mail-icon {
+  color: var(--brown);
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  outline: 2px solid var(--brown);
+  border-radius: 50%;
+  margin-left: 15px;
+  box-shadow: 0 6px 10px 0 #90573e49;
+}
+
+.mail-icon:hover {
+  color: white;
+  background-color: var(--light-brown);
+}
+
+.insta-icon {
+  color: var(--brown);
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  outline: 2px solid var(--brown);
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 #90573e49;
+}
+
+.insta-icon:hover {
+  color: white;
+  background-color: var(--light-brown);
+}
+
+.twt-icon {
+  color: var(--brown);
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  outline: 2px solid var(--brown);
+  border-radius: 50%;
+  margin-left: 15px;
+  box-shadow: 0 6px 10px 0 #90573e49;
+}
+
+.twt-icon:hover {
+  color: white;
+  background-color: var(--light-brown);
 }
 
 .ham-container {
