@@ -1,4 +1,71 @@
 #contact {
-    padding-top: 50px;
-    margin: 100px;
+  padding-top: 50px;
+  margin: 140px;
+}
+
+#contact h1 {
+  color: var(--blue);
+}
+
+.container {
+  background-color: var(--light-gray);
+  border-radius: 5px;
+  padding: 30px;
+  transition: all 0.35s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.116);
+}
+
+input[type="submit"] {
+  background-color: var(--blue);
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 35px;
+  font-size: 16px;
+  transition: all 0.35s ease-in-out;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.113);
+}
+
+input[type="submit"]:hover {
+  background-color: var(--light-blue);
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.055);
+}
+
+textarea {
+  width: 90%;
+  padding: 14px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.075);
+}
+
+.row-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-gap: 10px;
+}
+
+.cont-label {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.cont-subject {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-size: 18px;
 }

@@ -5,39 +5,36 @@ const Contact = () => {
     return (
         <div id='contact'>
             <h1>Contact</h1>
-            <div className='contact-container'>
+            <div className='container'>
                 <form>
-                    <div className='row'>
-                        <div>
-                            <input
-                                type='text'
-                                id='name'
-                                name='firstName'
-                                placeholder='Name'
-                            />
+                    <div className='row-container'>
+                        <div className='row'>
+                            <div className='cont-label'>
+                                <label for='fname'>First Name</label>
+                            </div>
+                            <div className='cont-placeholder'>
+                                <input type='text' id='fname' name='firstname' placeholder='Your Name' />
+                            </div>
+                        </div>
+                        <div className='row'>
+                            <div className='cont-label'>
+                                <label for='lname'>Email Address</label>
+                            </div>
+                            <div className='cont-placeholder'>
+                                <input type='text' id='email' name='email' placeholder='Email Address' />
+                            </div>
                         </div>
                     </div>
-                    <div className='row'>
-                        <div>
-                            <input
-                                type='text'
-                                id='email'
-                                name='email'
-                                placeholder='Email'
-                            />
+                    <div className='subject-row'>
+                        <div className='cont-subject'>
+                            <label for='subject'>Subject</label>
+                        </div>
+                        <div className='cont-subject-placeholder'>
+                            <textarea id='subject' name='subject' placeholder='Write something...'></textarea>
                         </div>
                     </div>
-                    <div className='row'>
-                        <label for='subject'>Subject</label>
-                        <div>
-                            <textarea
-                                id='subject'
-                                name='subject'
-                                placeholder='Write a message...'
-                                style={{ height: 200, width: 400 }}
-                                >
-                            </textarea>
-                        </div>
+                    <div className='button-row'>
+                        <input type='submit' value='Submit' />
                     </div>
                 </form>
             </div>

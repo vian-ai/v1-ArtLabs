@@ -30,7 +30,7 @@
 
 .tab-container:hover {
   transform: translateY(-6px);
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.075);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.116);
 }
 
 .tab-text {
@@ -83,7 +83,7 @@
 
 .sub-container .sub-content:hover {
   transform: translateY(-6px);
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.075);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.116);
 }
 
 .sub-container .sub-content h2 {
@@ -124,7 +124,7 @@
   margin-left: 20px;
   cursor: pointer;
   transition: all 0.35s ease-in-out;
-  box-shadow: 0 6px 10px 0 var(--shadow-blue);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.123);
 }
 
 .sub-container .sub-content footer button:hover {
