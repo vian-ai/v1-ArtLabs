@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@500&family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Kantumruy+Pro:wght@500&family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
 
 :root {
     --brown: #90573e;
@@ -9,7 +9,14 @@
     --pink: #ffc8c1;
     --light-pink: #f8cfca;
     --transparent-beige: #fdeee271;
+    --blue: #63e3f4;
+    --dark-blue: #3addf2;
+    --light-blue: #77ebfa;
+    --light-gray: #eeeeee;
+    --shadow-blue: #26a7b867;
+    --transparent-white: rgba(255, 255, 255, 0.247);
     --roboto: 'Roboto', sans-serif;
     --kantumruy: 'Kantumruy Pro', sans-serif;
     --montserrat: 'Montserrat', sans-serif;
+    --inconsolata: 'Inconsolata', monospace;
 }

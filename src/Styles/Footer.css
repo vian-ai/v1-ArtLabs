@@ -9,38 +9,39 @@
 }
 
 .content {
-  color: var(--brown);
+  color: var(--blue);
   text-decoration: none;
   transition: all 0.35s ease-in-out;
+  font-family: var(--inconsolata);
 }
 
 .content:hover {
-  color: var(--light-brown);
+  color: var(--light-blue);
 }
 
 .github-icon {
-  color: var(--brown);
+  color: var(--blue);
   transition: all 0.35s ease-in-out;
 }
 
 .email-icon {
-  color: var(--brown);
+  color: var(--blue);
   transition: all 0.35s ease-in-out;
 }
 
 .linkedin-icon {
-  color: var(--brown);
+  color: var(--blue);
   transition: all 0.35s ease-in-out;
 }
 
 .github-icon:hover {
-  color: var(--light-brown);
+  color: var(--light-blue);
 }
 
 .email-icon:hover {
-  color: var(--light-brown);
+  color: var(--light-blue);
 }
 
 .linkedin-icon:hover {
-  color: var(--light-brown);
+  color: var(--light-blue);
 }

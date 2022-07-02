@@ -18,8 +18,8 @@
 }
 
 .tab-container {
-  /* background-color: var(--beige); */
-  background: radial-gradient(rgb(253, 232, 218), #f5c6aa);
+  background-color: var(--light-gray);
+  /* background: radial-gradient(rgb(253, 232, 218), #f5c6aa); */
   width: 250px;
   height: 130px;
   transition: all 0.35s ease-in-out;
@@ -30,7 +30,7 @@
 
 .tab-container:hover {
   transform: translateY(-6px);
-  box-shadow: 0 6px 10px 0 #90573e42;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.075);
 }
 
 .tab-text {
@@ -40,7 +40,7 @@
 }
 
 .route-tab {
-  color: var(--brown);
+  color: black;
   border-radius: 3px;
   width: 90px;
   transition: all 0.35s ease-in-out;
@@ -50,7 +50,7 @@
 .route-tab::after {
   position: absolute;
   content: "";
-  background: var(--light-brown);
+  background: var(--blue);
   display: block;
   top: 75px;
   left: 36%;
@@ -64,7 +64,7 @@
 }
 
 .route-tab:hover {
-  color: var(--light-brown);
+  color: var(--light-blue);
 }
 
 .sub-container {
@@ -72,18 +72,18 @@
 }
 
 .sub-container .sub-content {
-  background: radial-gradient(rgba(253, 232, 218, 0.623), #f5c6aa);
-  /* background-color: var(--beige); */
+  /* background: radial-gradient(rgba(253, 232, 218, 0.623), #f5c6aa); */
+  background-color: var(--light-gray);
   padding: 20px;
   border-radius: 5px;
-  color: var(--brown);
+  color: var(--blue);
   width: 100%;
   transition: all 0.35s ease-in-out;
 }
 
 .sub-container .sub-content:hover {
   transform: translateY(-6px);
-  box-shadow: 0 6px 10px 0 #90573e42;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.075);
 }
 
 .sub-container .sub-content h2 {
@@ -103,18 +103,18 @@
 
 .sub-container .sub-content footer input {
   border: unset;
-  background-color: var(--transparent-beige);
+  background-color: white;
   backdrop-filter: blur(30px);
   padding: 15px;
   font-size: 14px;
   border-radius: 5px;
   width: 350px;
   height: 46px;
-  box-shadow: 0 6px 10px 0 #90573e1f;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.075);
 }
 
 .sub-container .sub-content footer button {
-  background-color: var(--brown);
+  background-color: var(--blue);
   color: white;
   border: unset;
   width: 120px;
@@ -124,9 +124,9 @@
   margin-left: 20px;
   cursor: pointer;
   transition: all 0.35s ease-in-out;
-  box-shadow: 0 6px 10px 0 #90573e57;
+  box-shadow: 0 6px 10px 0 var(--shadow-blue);
 }
 
 .sub-container .sub-content footer button:hover {
-  background-color: var(--light-brown);
+  background-color: var(--light-blue);
 }

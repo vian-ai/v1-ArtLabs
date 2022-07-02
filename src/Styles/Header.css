@@ -7,9 +7,9 @@
   top: 0;
   height: 100px;
   z-index: 2;
-  background-color: var(--transparent-beige);
+  background-color: var(--transparent-white);
   backdrop-filter: blur(30px);
-  color: var(--brown);
+  color: var(--blue);
   cursor: pointer;
 }
 
@@ -21,15 +21,15 @@
   padding: 6px;
   width: 120px;
   color: white;
-  background-color: var(--brown);
+  background-color: var(--blue);
   border: none;
   border-radius: 5px;
   transition: all 0.35s ease-in-out;
-  box-shadow: 0 6px 10px 0 #90573e49;
+  box-shadow: 0 4px 8px 0 #26a7b867;
 }
 
 .btn-base:hover {
-  background-color: var(--light-brown);
+  background-color: var(--light-blue);
 }
 
 .social-icons {
@@ -39,50 +39,53 @@
 }
 
 .mail-icon {
-  color: var(--brown);
+  color: white;
   transition: all 0.35s ease-in-out;
   cursor: pointer;
-  background-color: transparent;
-  outline: 2px solid var(--brown);
+  background-color: var(--blue);
+  outline: 2px solid var(--blue);
   border-radius: 50%;
   margin-left: 15px;
-  box-shadow: 0 6px 10px 0 #90573e49;
+  box-shadow: 0 6px 10px 0 var(--shadow-blue);
 }
 
 .mail-icon:hover {
+  outline: 2px solid var(--light-blue);
+  background-color: var(--light-blue);
   color: white;
-  background-color: var(--light-brown);
 }
 
 .insta-icon {
-  color: var(--brown);
+  color: white;
   transition: all 0.35s ease-in-out;
   cursor: pointer;
-  background-color: transparent;
-  outline: 2px solid var(--brown);
+  background-color: var(--blue);
+  outline: 2px solid var(--blue);
   border-radius: 50%;
-  box-shadow: 0 6px 10px 0 #90573e49;
+  box-shadow: 0 6px 10px 0 var(--shadow-blue);
 }
 
 .insta-icon:hover {
+  outline: 2px solid var(--light-blue);
+  background-color: var(--light-blue);
   color: white;
-  background-color: var(--light-brown);
 }
 
 .twt-icon {
-  color: var(--brown);
+  color: white;
   transition: all 0.35s ease-in-out;
   cursor: pointer;
-  background-color: transparent;
-  outline: 2px solid var(--brown);
+  background-color: var(--blue);
+  outline: 2px solid var(--blue);
   border-radius: 50%;
   margin-left: 15px;
-  box-shadow: 0 6px 10px 0 #90573e49;
+  box-shadow: 0 6px 10px 0 var(--shadow-blue);
 }
 
 .twt-icon:hover {
+  outline: 2px solid var(--light-blue);
+  background-color: var(--light-blue);
   color: white;
-  background-color: var(--light-brown);
 }
 
 .ham-container {
