@@ -11,11 +11,11 @@
 .card-display {
   display: grid;
   grid-gap: 60px;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .display-container {
-  background-color: red;
+  background-color: var(--light-gray);
   border-radius: 5px;
   height: 100%;
   padding: 1.5rem 0 !important;
@@ -31,11 +31,11 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
   grid-gap: 25px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .logo-container {
-  background-color: red;
+  background-color: var(--light-gray);
   border-radius: 5px;
   height: 100%;
   padding: 1.5rem 0 !important;
@@ -45,4 +45,30 @@
 .logo-container:hover {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.116);
   transform: translateY(-6px);
+}
+
+.display-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  transition: all 0.35s ease-in-out;
+}
+
+.link-icon {
+  color: black;
+  transition: all 0.35s ease-in-out;
+}
+
+.link-icon:hover {
+  color: var(--light-blue);
+}
+
+.mag-icon {
+  color: black;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+
+.mag-icon:hover {
+  color: var(--light-blue);
 }
