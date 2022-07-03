@@ -4,6 +4,7 @@ import apiUrl from '../apiUrl';
 
 const Logos = () => {
     const [logoList, setLogoList] = useState([]);
+    const [visible, setVisible] = useState(6);
 
     useEffect(() => {
         fetch(`${apiUrl}/logos`, {
@@ -38,7 +39,7 @@ const Logos = () => {
         )
     });
 
-    const listLogos = logoList.map((item) => {
+    const listLogos = logoList.slice(0, visible).map((item) => {
         return (
             <div className='logo-container'>
                 <div className='logo-img'>
@@ -47,6 +48,10 @@ const Logos = () => {
             </div>
         )
     });
+
+    const showMore = () => {
+        setVisible((prev) => prev + 6);
+    };
 
     return (
         <div id='logos'>
@@ -57,6 +62,9 @@ const Logos = () => {
             </div>
             <div className='logo-card'>
                 {listLogos}
+            </div>
+            <div className='load-more'>
+                <button className='more-btn' onClick={showMore}>+ More</button>
             </div>
         </div>
     )
