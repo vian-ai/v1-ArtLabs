@@ -2,3 +2,21 @@
     padding-top: 50px;
     margin: 100px;
 }
+
+#emotes h1 {
+    color: var(--blue);
+}
+
+.emote-card {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 25px;
+    margin-top: 50px;
+}
+
+.emote-container {
+    background-color: red;
+    border-radius: 5px;
+    height: 100%;
+    padding: 1.5rem 0 !important;
+}
