@@ -4,13 +4,50 @@
 }
 
 .carousel .slide {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .carousel-inner {
-    height: 400px;
+  height: 400px;
 }
 
 #banners h1 {
   color: var(--blue);
+}
+
+.banner-card {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-gap: 25px;
+  margin-top: 70px;
+}
+
+.banner-container {
+  background-color: var(--light-gray);
+  border-radius: 5px;
+  height: 100%;;
+  padding: 1.5rem 0 !important;
+  transition: all 0.35s ease-in-out;
+}
+
+.banner-container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.116);
+}
+
+
+.btn-banner {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 80px;
+  padding: 3px;
+  transition: all 0.35s ease-in-out;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.479);
+  -webkit-transform: translate(-10%, -120px);
+}
+
+.btn-banner:hover {
+  background-color: var(--light-blue);
 }

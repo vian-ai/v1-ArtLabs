@@ -43,14 +43,13 @@
   transition: all 0.35s ease-in-out;
   cursor: pointer;
   background-color: var(--blue);
-  outline: 2px solid var(--blue);
+  outline: none;
   border-radius: 50%;
   margin-left: 15px;
   box-shadow: 0 6px 10px 0 var(--shadow-blue);
 }
 
 .mail-icon:hover {
-  outline: 2px solid var(--light-blue);
   background-color: var(--light-blue);
   color: white;
 }
@@ -60,13 +59,12 @@
   transition: all 0.35s ease-in-out;
   cursor: pointer;
   background-color: var(--blue);
-  outline: 2px solid var(--blue);
+  outline: none;
   border-radius: 50%;
   box-shadow: 0 6px 10px 0 var(--shadow-blue);
 }
 
 .insta-icon:hover {
-  outline: 2px solid var(--light-blue);
   background-color: var(--light-blue);
   color: white;
 }
@@ -76,14 +74,13 @@
   transition: all 0.35s ease-in-out;
   cursor: pointer;
   background-color: var(--blue);
-  outline: 2px solid var(--blue);
+  outline: none;
   border-radius: 50%;
   margin-left: 15px;
   box-shadow: 0 6px 10px 0 var(--shadow-blue);
 }
 
 .twt-icon:hover {
-  outline: 2px solid var(--light-blue);
   background-color: var(--light-blue);
   color: white;
 }
