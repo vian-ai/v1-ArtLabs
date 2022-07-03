@@ -4,6 +4,7 @@ import '../Styles/Emotes.css';
 
 const Emotes = () => {
     const [emoteList, setEmoteList] = useState([]);
+    const [visible, setVisible] = useState(6);
     
     useEffect(() => {
         fetch(`${apiUrl}/emotes`, {
@@ -15,7 +16,11 @@ const Emotes = () => {
             });
     }, []);
 
-    const listEmotes = emoteList.map((item, i) => {
+    const showMore = () => {
+        setVisible((prev) => prev + 6);
+    };
+
+    const listEmotes = emoteList.slice(0, visible).map((item, i) => {
         return (
             <div className='emote-container'>
                 <div className='emote-img'>
@@ -31,6 +36,9 @@ const Emotes = () => {
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, at? Non asperiores ad omnis laborum iste odio perferendis doloremque ipsum veritatis, quis alias nisi ut! Facilis, aperiam. Sapiente, commodi enim!</p>
             <div className='emote-card'>
                 {listEmotes}
+            </div>
+            <div className='load-more'>
+                <button className='more-btn' onClick={showMore}>+ More</button>
             </div>
         </div>
     )

@@ -37,7 +37,7 @@
 }
 
 
-.btn-banner {
+/* .btn-banner {
   background-color: var(--blue);
   border: none;
   border-radius: 5px;
@@ -51,7 +51,7 @@
 
 .btn-banner:hover {
   background-color: var(--light-blue);
-}
+} */
 
 .more-btn {
   margin-top: 30px;
