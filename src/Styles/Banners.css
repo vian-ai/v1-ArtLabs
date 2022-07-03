@@ -13,6 +13,7 @@
 
 #banners h1 {
   color: var(--blue);
+  margin-top: 25px;
 }
 
 .banner-card {

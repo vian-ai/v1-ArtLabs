@@ -5,18 +5,25 @@
 
 #emotes h1 {
     color: var(--blue);
+    margin-top: 25px;
 }
 
 .emote-card {
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     grid-gap: 25px;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 .emote-container {
-    background-color: red;
+    background-color: var(--light-gray);
     border-radius: 5px;
     height: 100%;
     padding: 1.5rem 0 !important;
+    transition: all 0.35s ease-in-out;
+}
+
+.emote-container:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.116);
+    transform: translateY(-6px);
 }
