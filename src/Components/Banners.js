@@ -7,6 +7,7 @@ import apiUrl from '../apiUrl';
 
 const Banners = () => {
     const [bannerList, setBannerList] = useState([]);
+    const [visible, setVisible] = useState(6); // set default banners to render
 
     useEffect(() => {
         fetch(`${apiUrl}/banners`, {
@@ -14,11 +15,16 @@ const Banners = () => {
             .then((res) => res.json())
             .then((data) => {
                 setBannerList(data)
-                console.log(data)
-            })
+                // console.log(data)
+            });
     }, []);
 
-    const listItems = bannerList.map((item, i) => {
+    const showMore = () => {
+        setVisible((prev) => prev + 6); // displays 6 more banners when button is clicked
+    };
+
+    // map through banner list, display default number of banners set to render (6)
+    const listItems = bannerList.slice(0, visible).map((item, i) => {
         return (
             <div className='banner-container'>
                 <div className='banner-img'>
@@ -26,7 +32,7 @@ const Banners = () => {
                 </div>
             </div>
         )
-    })
+    });
 
     return (
         <div id='banners'>
@@ -35,6 +41,9 @@ const Banners = () => {
             <ImgCarousel />
             <div className='banner-card'>
                 {listItems}
+            </div>
+            <div className='load-more'>
+                <button className='more-btn' onClick={showMore}>+ More</button>
             </div>
         </div>
     )

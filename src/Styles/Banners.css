@@ -51,3 +51,21 @@
 .btn-banner:hover {
   background-color: var(--light-blue);
 }
+
+.more-btn {
+  margin-top: 30px;
+  background-color: var(--blue);
+  color: white;
+  width: 120px;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.116);
+  transition: all 0.35s ease-in-out;
+}
+
+.more-btn:hover {
+  background-color: var(--light-blue);
+  transform: translateY(-4px);
+}
