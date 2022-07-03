@@ -11,6 +11,7 @@ const Logos = () => {
             .then((res) => res.json())
             .then((data) => {
                 setLogoList(data)
+                // console.log(data)
             });
     }, []);
 
@@ -37,12 +38,25 @@ const Logos = () => {
         )
     });
 
+    const listLogos = logoList.map((item) => {
+        return (
+            <div className='logo-container'>
+                <div className='logo-img'>
+                    <img src={item.imageUrl} alt='logo image' style={{ width: 400 }} />
+                </div>
+            </div>
+        )
+    });
+
     return (
         <div id='logos'>
             <h1>Logos</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, at? Non asperiores ad omnis laborum iste odio perferendis doloremque ipsum veritatis, quis alias nisi ut! Facilis, aperiam. Sapiente, commodi enim!</p>
             <div className='card-display'>
                 {logoDisplay}
+            </div>
+            <div className='logo-card'>
+                {listLogos}
             </div>
         </div>
     )
