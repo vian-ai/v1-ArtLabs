@@ -19,12 +19,9 @@
 
 .tab-container {
   background-color: var(--light-gray);
-  /* background: radial-gradient(rgb(253, 232, 218), #f5c6aa); */
   width: 250px;
   height: 130px;
   transition: all 0.35s ease-in-out;
-  /* outline: 2px solid var(--light-brown);
-  outline-offset: -15px; */
   border-radius: 5px;
 }
 
@@ -47,7 +44,7 @@
   font-family: var(--kantumruy);
 }
 
-.route-tab::after {
+.tab-container::after {
   position: absolute;
   content: "";
   background: var(--blue);
@@ -59,12 +56,12 @@
   transition: all 0.5s;
 }
 
-.route-tab:hover::after {
+.tab-container:hover::after {
   width: 70px;
 }
 
 .route-tab:hover {
-  color: var(--light-blue);
+  color: var(--blue);
 }
 
 .sub-container {
