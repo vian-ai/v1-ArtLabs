@@ -69,11 +69,10 @@
 }
 
 .sub-container {
-  margin: 50px;
+  margin-top: 50px;
 }
 
 .sub-container .sub-content {
-  /* background: radial-gradient(rgba(253, 232, 218, 0.623), #f5c6aa); */
   background-color: var(--light-gray);
   padding: 20px;
   border-radius: 5px;

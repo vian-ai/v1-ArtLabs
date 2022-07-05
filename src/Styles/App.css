@@ -87,4 +87,10 @@ body {
     top: 65px;
     left: 32%;
   }
+
+  .sub-container .sub-content {
+    padding: 20px;
+    align-items: center;
+    width: 600px;
+  }
 }
