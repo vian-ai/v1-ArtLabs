@@ -53,7 +53,7 @@ const Logos = () => {
         return (
             <div className='logo-container'>
                 <div className='logo-img'>
-                    <img src={item.imageUrl} alt='logo image' style={{ width: 400 }} />
+                    <img src={item.imageUrl} alt='logo image' style={{ width: '90%' }} />
                 </div>
             </div>
         )

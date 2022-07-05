@@ -28,7 +28,7 @@ const Banners = () => {
         return (
             <div className='banner-container'>
                 <div className='banner-img'>
-                    <img src={item.imageUrl} style={{ width: 400 }} alt='banner image' />
+                    <img src={item.imageUrl} style={{ width: '90%' }} alt='banner image' />
                 </div>
             </div>
         )

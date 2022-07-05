@@ -8,9 +8,9 @@ const Header = () => {
     return (
         <div className='top-header'>
             <div className='social-icons'>
-                <a className='insta-icon'><InstagramIcon style={{ margin: 10, fontSize: 20 }} /></a>
-                <a className='twt-icon'><TwitterIcon style={{ margin: 10, fontSize: 20 }} /></a>
-                <a className='mail-icon'><EmailIcon style={{ margin: 10, fontSize: 20 }} /></a>
+                <a href='#' className='insta-icon'><InstagramIcon style={{ margin: 10, fontSize: 20 }} /></a>
+                <a href='#' className='twt-icon'><TwitterIcon style={{ margin: 10, fontSize: 20 }} /></a>
+                <a href='#' className='mail-icon'><EmailIcon style={{ margin: 10, fontSize: 20 }} /></a>
             </div>
             <div className='web-name'>
                 <h1>NAME</h1>
@@ -18,9 +18,9 @@ const Header = () => {
             <div className='btn'>
                 <button className='btn-base'>Subscribe</button>
             </div>
-            <div className='ham-container'>
+            <div className='nav-container'>
                 <input className='checkbox' type='checkbox' name='' id='' />
-                <div className='ham-lines'>
+                <div className='hamburger-lines'>
                     <span className='line line1'></span>
                     <span className='line line2'></span>
                     <span className='line line3'></span>

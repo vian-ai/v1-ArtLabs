@@ -1,4 +1,8 @@
 @import url("./Variables.css");
+@import url('./Banners.css');
+@import url('./Emotes.css');
+@import url('./Logos.css');
+@import url('./Contact.css');
 
 .App {
   text-align: center;
@@ -36,4 +40,18 @@ body {
 
 .nav-menu a:hover {
   color: var(--blue);
+}
+
+@media (max-width: 980px) {
+  .banner-card {
+    grid-template-columns: repeat(1, minmax(150px, 1fr));
+  }
+
+  .emote-card {
+    grid-template-columns: repeat(1, minmax(150px, 1fr));
+  }
+
+  .logo-card {
+    grid-template-columns: repeat(1, minmax(150px, 1fr));
+  }
 }

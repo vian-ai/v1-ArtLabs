@@ -24,7 +24,7 @@ const Emotes = () => {
         return (
             <div className='emote-container'>
                 <div className='emote-img'>
-                    <img src={item.imageUrl} style={{ width: 250 }} alt='emote image' />
+                    <img src={item.imageUrl} style={{ width: '90%' }} alt='emote image' />
                 </div>
             </div>
         )
