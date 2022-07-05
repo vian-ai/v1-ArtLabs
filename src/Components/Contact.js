@@ -36,7 +36,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='button-row'>
-                        <input type='submit' value='Submit' />
+                        <input type='submit' value='Submit' onClick={(e) => e.preventDefault()} />
                     </div>
                 </form>
             </div>

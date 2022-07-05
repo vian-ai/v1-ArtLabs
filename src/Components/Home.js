@@ -3,6 +3,7 @@ import img from '../Assets/placeholder.png';
 import '../Styles/Home.css';
 
 const Home = () => {
+
     const tabs = [
         {
             tab: 'BANNERS',

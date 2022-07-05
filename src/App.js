@@ -8,6 +8,7 @@ import Emotes from './Components/Emotes';
 import Logos from './Components/Logos';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Shop from './Components/Shop';
 
 import './Styles/App.css';
 
@@ -20,6 +21,7 @@ function App() {
         <Link to='/banners'>Banners</Link>
         <Link to='/emotes'>Emotes</Link>
         <Link to='/logos'>Logos</Link>
+        <Link to='/shop'>Shop</Link>
         <Link to='/contact'>Contact</Link>
       </nav>
       <main>
@@ -28,6 +30,7 @@ function App() {
           <Route path='/banners' element={<Banners />} />
           <Route path='/emotes' element={<Emotes />} />
           <Route path='/logos' element={<Logos />} />
+          <Route path='/shop' element={<Shop />} />
           <Route path='/contact' element={<Contact />} />
           <Route />
         </Routes>

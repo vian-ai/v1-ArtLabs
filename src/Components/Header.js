@@ -2,6 +2,7 @@ import React from 'react';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailIcon from '@mui/icons-material/Email';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import '../Styles/Header.css';
 
 const Header = () => {
@@ -16,7 +17,7 @@ const Header = () => {
                 <h1>NAME</h1>
             </div>
             <div className='btn'>
-                <button className='btn-base'>Subscribe</button>
+                <button className='btn-base'><ShoppingCartIcon style={{ fontSize: 20 }} /></button>
             </div>
             <div className='nav-container'>
                 <input className='checkbox' type='checkbox' name='' id='' />

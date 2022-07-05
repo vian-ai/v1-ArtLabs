@@ -26,9 +26,11 @@ const Banners = () => {
     // map through banner list, display default number of banners set to render (6)
     const listItems = bannerList.slice(0, visible).map((item, i) => {
         return (
-            <div className='banner-container'>
-                <div className='banner-img'>
-                    <img src={item.imageUrl} style={{ width: '90%' }} alt='banner image' />
+            <div>
+                <div className='banner-container'>
+                    <div className='banner-img'>
+                        <img src={item.imageUrl} style={{ width: '90%' }} alt='banner image' />
+                    </div>
                 </div>
             </div>
         )

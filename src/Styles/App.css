@@ -32,7 +32,7 @@ body {
 .nav-menu a {
   display: inline;
   text-decoration: none;
-  margin: 15px;
+  margin: 10px;
   padding-right: 30px;
   color: black;
   transition: all 0.35s ease-in-out;

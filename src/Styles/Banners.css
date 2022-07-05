@@ -37,23 +37,6 @@
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.116);
 }
 
-
-/* .btn-banner {
-  background-color: var(--blue);
-  border: none;
-  border-radius: 5px;
-  color: white;
-  width: 80px;
-  padding: 3px;
-  transition: all 0.35s ease-in-out;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.479);
-  -webkit-transform: translate(-10%, -120px);
-}
-
-.btn-banner:hover {
-  background-color: var(--light-blue);
-} */
-
 .more-btn {
   margin-top: 30px;
   background-color: var(--blue);
