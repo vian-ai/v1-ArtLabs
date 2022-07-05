@@ -3,6 +3,10 @@
   margin: 100px;
 }
 
+#home h1 {
+  color: var(--blue);
+}
+
 .home-img {
   margin-top: 50px;
 }

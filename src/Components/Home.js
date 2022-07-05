@@ -30,10 +30,10 @@ const Home = () => {
 
     return (
         <div id='home'>
-            {/* <h1>Home</h1>
+            <h1>ArtLabs</h1>
             <div className='home-desc'>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quas fuga cumque voluptatum aperiam tempore quisquam rem officiis vero velit saepe accusamus, porro rerum commodi facere minima veritatis earum id!</p>
-            </div> */}
+            </div>
             <div className='home-img'>
                 <img
                     src={img}
