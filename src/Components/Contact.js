@@ -5,6 +5,8 @@ const Contact = () => {
     return (
         <div id='contact'>
             <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, beatae eum. Veritatis ducimus
+                inventore a quisquam eligendi!</p>
             <div className='container'>
                 <form>
                     <div className='row-container'>

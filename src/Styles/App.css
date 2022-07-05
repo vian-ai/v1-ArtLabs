@@ -54,4 +54,12 @@ body {
   .logo-card {
     grid-template-columns: repeat(1, minmax(150px, 1fr));
   }
+
+  .row-container {
+    grid-template-columns: repeat(1, minmax(50px, 1fr));
+  }
+
+  input[type="submit"], input[type="text"], textarea {
+    width: 100%;
+  }
 }

@@ -36,7 +36,7 @@ const Logos = () => {
             <div>
                 <div className='display-container'>
                     <div className='display-img'>
-                        <img src={item.logo} alt='logo image' style={{ width: 700 }} />
+                        <img src={item.logo} alt='logo image' style={{ width: '100%' }} />
                     </div>
                 </div>
                 <div className='display-icons'>
