@@ -95,4 +95,27 @@ body {
   .shop-container {
     height: 500px;
   }
+
+  #promo-label {
+    margin-top: 35px;
+  }
+  
+  .promo-label #promo-label {
+    background-color: var(--light-gray);
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    transition: all 0.35s ease-in-out;
+  }
+
+  #promo-label input {
+    width: 80%;
+  }
+  
+  .promo-button {
+    width: 70px;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+  }
 }
