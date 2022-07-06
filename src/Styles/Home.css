@@ -4,6 +4,8 @@
 }
 
 #home h1 {
+  margin-top: 20px;
+  font-size: 50px;
   color: var(--blue);
 }
 
@@ -13,7 +15,7 @@
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
   grid-gap: 5px;
   margin: 20px;
   margin-top: 50px;
@@ -69,10 +71,11 @@
 }
 
 .sub-container {
-  margin-top: 50px;
+  margin: 50px;
 }
 
 .sub-container .sub-content {
+  /* background: radial-gradient(rgba(253, 232, 218, 0.623), #f5c6aa); */
   background-color: var(--light-gray);
   padding: 20px;
   border-radius: 5px;

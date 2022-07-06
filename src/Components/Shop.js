@@ -4,13 +4,18 @@ import '../Styles/Shop.css';
 const Shop = () => {
     const shopItems = [
         {
-            bannerUrl: 'https://i.imgur.com/EbajYRU.png',
-            desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum, cum adipisci sapiente necessitatibus facilis, et corporis ducimus laudantium repellendus ex itaque ipsam eos modi incidunt autem delectus!',
+            bannerUrl: 'https://i.imgur.com/zfhvv3U.png',
+            desc: 'The products description goes here!',
             price: '$10',
         },
         {
-            bannerUrl: 'https://i.imgur.com/Z9BsaWJ.png',
-            desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum, cum adipisci sapiente necessitatibus facilis, et corporis ducimus laudantium repellendus ex itaque ipsam eos modi incidunt autem delectus!',
+            bannerUrl: 'https://i.imgur.com/Zwa2Hmw.png',
+            desc: 'The products description goes here!',
+            price: '$10'
+        },
+        {
+            bannerUrl: 'https://i.imgur.com/DPS2oeA.png',
+            desc: 'The products description goes here!',
             price: '$10'
         }
     ];
@@ -19,10 +24,10 @@ const Shop = () => {
         return (
             <div className='shop-container'>
                 <div className='shop-content'>
-                    <img src={item.bannerUrl} alt='banner url' style={{ width: '50%' }} />
-                    <p>{item.desc}</p>
-                    <h4>{item.price}</h4>
-                    <button>Buy</button>
+                    <img className='prod-img' src={item.bannerUrl} alt='banner url' style={{ width: '100%' }} />
+                    <h4 className='prod-price'>{item.price}</h4>
+                    <p className='prod-desc'>{item.desc}</p>
+                    <button className='add-cart'>Add to Cart</button>
                 </div>
             </div>
         )
@@ -34,7 +39,7 @@ const Shop = () => {
             <div className='shop-desc'>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum, cum adipisci sapiente necessitatibus facilis, et corporis ducimus laudantium repellendus ex itaque ipsam eos modi incidunt autem delectus! Enim, laudantium.</p>
             </div>
-            <div className='promo-label'>
+            {/* <div className='promo-label'>
                 <section className='label-container'>
                     <label id='promo-label'>
                         <input
@@ -44,7 +49,7 @@ const Shop = () => {
                         <button className='promo-button'>Apply</button>
                     </label>
                 </section>
-            </div>
+            </div> */}
             <div className='shop-cards'>
                 {listItems}
             </div>
