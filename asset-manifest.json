@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/v1-ArtLabs/static/css/main.c1558496.css",
+    "main.js": "/v1-ArtLabs/static/js/main.edc49e95.js",
+    "static/media/img4.png": "/v1-ArtLabs/static/media/img4.64d352390e4e0d5e896e.png",
+    "static/media/img2.png": "/v1-ArtLabs/static/media/img2.666c6a0ae56e64045255.png",
+    "static/media/img3.png": "/v1-ArtLabs/static/media/img3.9ff6887a46e3552a5a0b.png",
+    "static/media/img1.png": "/v1-ArtLabs/static/media/img1.fd2f46134c771f413f24.png",
+    "index.html": "/v1-ArtLabs/index.html",
+    "main.c1558496.css.map": "/v1-ArtLabs/static/css/main.c1558496.css.map",
+    "main.edc49e95.js.map": "/v1-ArtLabs/static/js/main.edc49e95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1558496.css",
+    "static/js/main.edc49e95.js"
+  ]
+}
