@@ -7,7 +7,10 @@ const Cart = (props) => {
             <div key={item.id} className='shop-items'>
                 <img className='cart-img' src={item[0].bannerUrl} />
                 <p className='cart-desc'>{item[0].desc}</p>
-                <h4 className='cart-price'>{item[0].price}</h4>
+                <div className='total-content'>
+                    <h4 className='cart-price'>{item[0].price}</h4>
+                    <button className='remove-btn' onClick={() => props.removeItemFromCart(i)}>Remove</button>
+                </div>
             </div>
         )
     });

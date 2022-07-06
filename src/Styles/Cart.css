@@ -50,6 +50,12 @@
 
 .cart-img {
     width: 30%;
+    cursor: pointer;
+    transition: all 0.35s ease-in-out;
+}
+
+.cart-img:hover {
+    transform: scale(1.4);
 }
 
 .cart-price {
@@ -65,4 +71,21 @@
     display: grid;
     grid-template-columns: repeat(2);
     grid-gap: 15px;
+}
+
+.remove-btn {
+    margin-right: 20px;
+    font-size: 12px;
+    color: white;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 70px;
+    transition: all 0.35s ease-in-out;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.116);
+}
+
+.remove-btn:hover {
+    background-color: var(--light-blue);
 }
