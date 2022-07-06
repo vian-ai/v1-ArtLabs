@@ -17,7 +17,7 @@ const Header = () => {
                 <h1>NAME</h1>
             </div>
             <div className='btn'>
-                <button className='btn-base'><ShoppingCartIcon style={{ fontSize: 20 }} /> 0</button>
+                <a href='/#/cart'><button className='btn-base'><ShoppingCartIcon style={{ fontSize: 20 }} /> 0</button></a>
             </div>
             <div className='nav-container'>
                 <input className='checkbox' type='checkbox' name='' id='' />

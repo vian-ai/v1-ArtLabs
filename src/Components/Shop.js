@@ -1,21 +1,25 @@
 import React from 'react';
 import '../Styles/Shop.css';
 
-const Shop = () => {
+const Shop = (props) => {
+
     const shopItems = [
         {
+            id: 1,
             bannerUrl: 'https://i.imgur.com/zfhvv3U.png',
-            desc: 'The products description goes here!',
+            desc: 'Cinema Banner',
             price: '$10',
         },
         {
+            key: 2,
             bannerUrl: 'https://i.imgur.com/Zwa2Hmw.png',
-            desc: 'The products description goes here!',
+            desc: 'Project YinYue Banner',
             price: '$10'
         },
         {
+            key: 3,
             bannerUrl: 'https://i.imgur.com/DPS2oeA.png',
-            desc: 'The products description goes here!',
+            desc: 'Starting Soon Banner',
             price: '$10'
         }
     ];
@@ -27,7 +31,7 @@ const Shop = () => {
                     <img className='prod-img' src={item.bannerUrl} alt='banner url' style={{ width: '100%' }} />
                     <h4 className='prod-price'>{item.price}</h4>
                     <p className='prod-desc'>{item.desc}</p>
-                    <button className='add-cart'>Add to Cart</button>
+                    <button className='add-cart' onClick={() => props.addToCart(shopItems)}>Add to Cart</button>
                 </div>
             </div>
         )
