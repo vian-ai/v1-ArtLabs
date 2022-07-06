@@ -45,7 +45,7 @@ body {
 
 @media (max-width: 980px) {
   .banner-card {
-    grid-template-columns: repeat(1, minmax(150px, 1fr));
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
   }
 
   .emote-card {
@@ -88,9 +88,11 @@ body {
     left: 32%;
   }
 
-  .sub-container .sub-content {
-    padding: 20px;
-    align-items: center;
-    width: 600px;
+  .shop-cards {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+
+  .shop-container {
+    height: 500px;
   }
 }

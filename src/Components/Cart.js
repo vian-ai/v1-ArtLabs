@@ -24,6 +24,17 @@ const Cart = (props) => {
             <div className='items-header'>
                 {itemsInCart}
             </div>
+            <div className='promo-label'>
+                <section className='label-container'>
+                    <label id='promo-label'>
+                        <input
+                            type='text'
+                            placeholder='Enter a promo code'
+                        />
+                        <button className='promo-button'>Apply</button>
+                    </label>
+                </section>
+            </div>
         </div>
     )
 };

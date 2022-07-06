@@ -43,17 +43,6 @@ const Shop = (props) => {
             <div className='shop-desc'>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum, cum adipisci sapiente necessitatibus facilis, et corporis ducimus laudantium repellendus ex itaque ipsam eos modi incidunt autem delectus! Enim, laudantium.</p>
             </div>
-            {/* <div className='promo-label'>
-                <section className='label-container'>
-                    <label id='promo-label'>
-                        <input
-                            type='text'
-                            placeholder='Enter a promo code'
-                        />
-                        <button className='promo-button'>Apply</button>
-                    </label>
-                </section>
-            </div> */}
             <div className='shop-cards'>
                 {listItems}
             </div>
