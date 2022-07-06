@@ -7,15 +7,15 @@ const Home = () => {
     const tabs = [
         {
             tab: 'BANNERS',
-            route: '/#/banners'
+            route: 'https://vian-ai.github.io/#/banners'
         },
         {
             tab: 'EMOTES',
-            route: '/#/emotes'
+            route: 'https://vian-ai.github.io/#/emotes'
         },
         {
             tab: 'LOGOS',
-            route: '/#/logos'
+            route: 'https://vian-ai.github.io/#/logos'
         }
     ];
 
