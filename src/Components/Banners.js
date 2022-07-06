@@ -29,7 +29,9 @@ const Banners = () => {
             <div>
                 <div className='banner-container'>
                     <div className='banner-img'>
-                        <img src={item.imageUrl} style={{ width: '90%' }} alt='banner image' />
+                        <a href={item.social} target='_blank'>
+                            <img src={item.imageUrl} style={{ width: '90%' }} alt='banner image' />
+                        </a>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import '../Styles/Emotes.css';
 const Emotes = () => {
     const [emoteList, setEmoteList] = useState([]);
     const [visible, setVisible] = useState(6);
-    
+
     useEffect(() => {
         fetch(`${apiUrl}/emotes`, {
         })
@@ -24,7 +24,9 @@ const Emotes = () => {
         return (
             <div className='emote-container'>
                 <div className='emote-img'>
-                    <img src={item.imageUrl} style={{ width: '90%' }} alt='emote image' />
+                    <a href={item.social} target='_blank'>
+                        <img src={item.imageUrl} style={{ width: '90%' }} alt='emote image' />
+                    </a>
                 </div>
             </div>
         )

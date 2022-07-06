@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import LinkIcon from '@mui/icons-material/Link';
-import ZoomInIcon from '@mui/icons-material/ZoomIn';
 import '../Styles/Logos.css';
 import apiUrl from '../apiUrl';
 
@@ -41,9 +40,6 @@ const Logos = () => {
                 </div>
                 <div className='display-icons'>
                     <a href={item.social} target='_blank' className='link-icon'><LinkIcon sx={{ fontSize: 28, m: 1 }} /></a>
-                    <div className='mag-icon'>
-                        <ZoomInIcon sx={{ fontSize: 28, m: 1 }} />
-                    </div>
                 </div>
             </div>
         )
@@ -53,7 +49,9 @@ const Logos = () => {
         return (
             <div className='logo-container'>
                 <div className='logo-img'>
-                    <img src={item.imageUrl} alt='logo image' style={{ width: '90%' }} />
+                    <a href={item.social} target='_blank'>
+                        <img src={item.imageUrl} alt='logo image' style={{ width: '90%' }} />
+                    </a>
                 </div>
             </div>
         )

@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   background-color: var(--light-gray);
-  height: 400px;
+  height: 360px;
   border-radius: 5px;
   transition: all 0.35s ease-in-out;
 }
@@ -36,6 +36,7 @@
 .shop-container .prod-price {
   margin-top: 20px;
   color: rgba(0, 0, 0, 0.623);
+  font-size: 18px;
 }
 
 .shop-container .prod-desc {
@@ -56,93 +57,3 @@
 .shop-container .add-cart:hover {
   background-color: var(--light-blue);
 }
-
-/* .shop-cards {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
-    grid-gap: 5px;
-    margin: auto;
-    text-align: center;
-}
-
-.shop-container {
-    display: flex;
-    justify-content: center;
-    background-color: var(--light-gray);
-    max-width: 380px;
-    width: 350px;
-    height: 350px;
-    border-radius: 5px;
-    padding: 1.5rem 0 !important;
-}
-
-.shop-container .add-cart {
-    color: white;
-    background-color: var(--blue);
-    border: none;
-    padding: 8px;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.116);
-    transition: all 0.35s ease-in-out;
-    width: 100%;
-    margin-top: 50px;
-} */
-
-/* .shop-cards {
-  display: grid;
-  grid-template-rows: repeat(2, minmax(250px, 1fr));
-  grid-gap: 25px;
-  margin-top: 70px;
-}
-
-.shop-container {
-  max-width: 300px;
-} */
-
-/* #promo-label {
-  display: block;
-  margin-bottom: 0.3125rem;
-}
-
-.promo-label #promo-label {
-  background-color: var(--light-gray);
-  padding: 10px;
-  border-radius: 5px;
-  width: 70%;
-  transition: all 0.35s ease-in-out;
-}
-
-.promo-label #promo-label:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.116);
-} */
-
-/* .promo-button {
-  color: white;
-  background-color: var(--blue);
-  border: none;
-  border-radius: 5px;
-  width: 80px;
-  padding: 5px;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.116);
-  transition: all 0.35s ease-in-out;
-}
-
-.promo-button:hover {
-  background-color: var(--light-blue);
-} */
-
-/* .add-cart {
-    color: white;
-    background-color: var(--blue);
-    border: none;
-    width: 120px;
-    padding: 8px;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.116);
-    transition: all 0.35s ease-in-out;
-}
-
-.add-cart:hover {
-    background-color: var(--light-blue);
-} */
